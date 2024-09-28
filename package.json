@@ -2,9 +2,10 @@
   "name": "hrm",
   "version": "1.0.0",
   "description": "Backend for HRM",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Backend",
@@ -13,6 +14,7 @@
   "author": "Abdul Shoeb",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
   }
 }
